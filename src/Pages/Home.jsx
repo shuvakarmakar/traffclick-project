@@ -1,8 +1,11 @@
+import ContactForm from "./ContactForm";
+import Navbar from "./Navbar";
+
 const Home = () => {
     return (
-        <div>
-            <h1 color='Gray'>Hello WOrld and React Js I am back</h1>
-            <h3 className='font-bold text-3xl'>My Name is Shuva Karmakar</h3>
+        <div style={{ backgroundColor: '#001C30'}}>
+            <Navbar></Navbar>
+            <ContactForm></ContactForm>
         </div>
     );
 };
