@@ -3,10 +3,12 @@ import Navbar from "./Navbar";
 
 const Home = () => {
     return (
-        <div style={{ backgroundColor: '#001C30'}}>
+        <div>
             <Navbar></Navbar>
             <ContactForm></ContactForm>
         </div>
+
+        // style={{ backgroundColor: '#001C30'}}
     );
 };
 
