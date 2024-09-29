@@ -1,3 +1,4 @@
+import AboutUs from "./AboutUs";
 import ContactForm from "./ContactForm";
 import Navbar from "./Navbar";
 
@@ -5,6 +6,7 @@ const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
+            <AboutUs></AboutUs>
             <ContactForm></ContactForm>
         </div>
 
