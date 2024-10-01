@@ -24,7 +24,7 @@ const NavBar = () => {
                             <a onClick={() => handleScrollToSection("partner")} className="font-bold uppercase">Our Partners</a>
                         </li>
                         <li>
-                            <a onClick={() => handleScrollToSection("aboutus")} className="font-bold uppercase">About Us</a>
+                            <a onClick={() => handleScrollToSection("about")} className="font-bold uppercase">About Us</a>
                         </li>
                         <li>
                             <a onClick={() => handleScrollToSection("contact")} className="font-bold uppercase">Contact</a>

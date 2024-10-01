@@ -2,7 +2,7 @@ import myImages from '../../public/Banner.jpg'
 
 const AboutUs = () => {
     return (
-        <div className="about-us-section flex flex-col md:flex-row items-center md:items-start md:space-x-8 p-6">
+        <div className="about-us-section flex flex-col md:flex-row items-center md:items-start md:space-x-8 p-6" id='about'>
             <div className="banner-container md:w-1/2 mb-6 md:mb-0">
                 <img 
                     src={myImages} 

@@ -1,6 +1,6 @@
 const Partner = () => {
     return (
-        <div className="partner-section p-6">
+        <div className="partner-section p-6" id="partner">
             <h1 className="text-2xl md:text-4xl font-bold text-white text-center mb-8">
                 Our Partners
             </h1>
