@@ -1,6 +1,7 @@
 import AboutUs from "./AboutUs";
 import Banner from "./Banner";
 import ContactForm from "./ContactForm";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Partner from "./Partner";
 
@@ -12,6 +13,7 @@ const Home = () => {
             <AboutUs></AboutUs>
             <Partner></Partner>
             <ContactForm></ContactForm>
+            <Footer></Footer>
         </div>
 
         // style={{ backgroundColor: '#001C30'}}

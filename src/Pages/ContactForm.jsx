@@ -1,10 +1,10 @@
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 
 const ContactForm = () => {
     return (
         <div id="contact" className="min-h-screen p-10">
             <div className="container mx-auto">
-                <h1 className="text-4xl font-bold text-center mb-8 text-white">Contact Us</h1>
+                <h1 className="text-4xl font-bold text-center mb-10 text-white">Contact Us</h1>
 
                 <div className="flex flex-col lg:flex-row justify-between items-start lg:space-x-10">
                     {/* Left side: Contact Form */}
@@ -55,32 +55,18 @@ const ContactForm = () => {
                         {/* Social Media Links with new design */}
                         <div className="flex flex-col sm:flex-row lg:flex-col items-center space-y-6 lg:space-y-4">
                             <a
-                                href="https://facebook.com"
+                                href="https://facebook.com/traffclick"
                                 className="flex items-center text-gray-700 hover:bg-blue-500 hover:text-white transition-colors p-3 rounded-lg shadow-md w-full sm:w-auto"
                             >
                                 <FaFacebookF className="mr-3 text-2xl" />
                                 <span className="text-lg font-semibold">Facebook</span>
                             </a>
                             <a
-                                href="https://twitter.com"
-                                className="flex items-center text-gray-700 hover:bg-blue-400 hover:text-white transition-colors p-3 rounded-lg shadow-md w-full sm:w-auto"
-                            >
-                                <FaTwitter className="mr-3 text-2xl" />
-                                <span className="text-lg font-semibold">Twitter</span>
-                            </a>
-                            <a
-                                href="https://linkedin.com"
+                                href="https://www.linkedin.com/company/traffclick/"
                                 className="flex items-center text-gray-700 hover:bg-blue-700 hover:text-white transition-colors p-3 rounded-lg shadow-md w-full sm:w-auto"
                             >
                                 <FaLinkedinIn className="mr-3 text-2xl" />
                                 <span className="text-lg font-semibold">LinkedIn</span>
-                            </a>
-                            <a
-                                href="https://instagram.com"
-                                className="flex items-center text-gray-700 hover:bg-pink-600 hover:text-white transition-colors p-3 rounded-lg shadow-md w-full sm:w-auto"
-                            >
-                                <FaInstagram className="mr-3 text-2xl" />
-                                <span className="text-lg font-semibold">Instagram</span>
                             </a>
                         </div>
                     </div>
