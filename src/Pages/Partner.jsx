@@ -9,7 +9,7 @@ const Partner = () => {
     }, []);
 
     return (
-        <div className="partner-section p-6" id="partner">
+        <div className="partner-section p-6 shadow-lg" id="partner">
             <h1
                 className="text-2xl md:text-4xl font-bold text-white text-center mb-8"
                 data-aos="fade-up" // AOS animation for the heading
