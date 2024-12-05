@@ -1,28 +1,28 @@
 import { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"; // Import AOS styles
+import "aos/dist/aos.css"; 
 
 const Partner = () => {
     // Initialize AOS on component mount
     useEffect(() => {
-        AOS.init({ duration: 1000 }); // Initialize AOS with 1000ms duration
+        AOS.init({ duration: 1000 }); 
     }, []);
 
     return (
         <div className="partner-section p-6 shadow-lg" id="partner">
             <h1
-                className="text-2xl md:text-4xl font-bold text-white text-center mb-8"
-                data-aos="fade-up" // AOS animation for the heading
+                className="text-2xl md:text-4xl font-bold text-white text-center p-7"
+                data-aos="fade-up" 
             >
                 Our Partners
             </h1>
-            <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8">
+            <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8 mb-8">
                 {/* Affpaying Logo with Link */}
                 <a
                     href="https://www.affpaying.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    data-aos="fade-right" // AOS animation for this logo
+                    data-aos="fade-right" 
                 >
                     <img
                         src="/affpaying-logo.png"
